@@ -1,0 +1,118 @@
+* {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#page-container {
+	margin-left: 250px;
+}
+
+#nav-bar {
+	width: 200px;
+	margin: 50px;
+	margin-top: 20px;
+	position: fixed;
+}
+
+#photo-grid {
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.col {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+  .col {
+    flex: 30%;
+    max-width: 33%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .col {
+    flex: 40%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+h1 {
+	margin: 0px;
+	font-weight: normal;
+}
+
+#cur {
+	color: black;
+	font-weight: bold;
+}
+.sub-page {
+	font-size: 13pt;
+	padding-left: 30px;
+}
+a {
+	font-size: 16pt;
+	line-height: 125%;
+}
+a:link {
+	color: #5C5C5C;
+	text-decoration: none;
+}
+a:hover {
+	color: #5C5C5C;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited {
+	color: #5C5C5C;
+	text-decoration: none;
+}
+
+form {
+	width: 60%;
+	margin: 0 auto;
+	padding-left: 0px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+label, input, textarea {
+	float: left;
+	margin: 10px;
+	width: 90%;
+	padding: 5px;
+	font-size: 16px;
+}
+input[type="submit"] {
+	width: 92%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+#message {
+	text-align:  center;
+	padding-top: 60px;
+}
